@@ -1,13 +1,76 @@
-.ucsb-fine-print, .ucsb-caption, .ucsb-lead, .ucsb-body, .ucsb-h6, .ucsb-h5, .ucsb-h4, .ucsb-h3, .ucsb-h2, .ucsb-h1, .ucsb-display-sm, .ucsb-display-md, .ucsb-display-lg, .ucsb-display-xl {
+.ucsb-display-xl {
   font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
 }
 
+.ucsb-display-lg {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-display-md {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-display-sm {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-h6, .ucsb-h5, .ucsb-h4, .ucsb-h3, .ucsb-h2, .ucsb-h1 {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+  color: #111517;
+  line-height: 1.6em;
+}
+
+.ucsb-h1 {
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: -0.1pt;
+}
+
+.ucsb-h2 {
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: -0.1pt;
+  margin: 26px 0 10px 0;
+}
+
+.ucsb-h3 {
+  font-weight: 600;
+  font-size: 21px;
+  margin: 20px 0 10px 0;
+}
+
+.ucsb-h4 {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 16px 0 8px 0;
+}
+
 .ucsb-h5 {
+  font-weight: 600;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
 .ucsb-h6 {
+  font-weight: 400;
+  font-size: 12px;
   text-transform: uppercase;
+}
+
+.ucsb-body {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-lead {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-caption {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-fine-print {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
 }
 
 /*# sourceMappingURL=ucsb.css.map */

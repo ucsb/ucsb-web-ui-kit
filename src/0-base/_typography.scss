@@ -1,70 +1,118 @@
 // These fonts are from the UCSB visual identity, font CDN, and similar Google Fonts.
 
-$font-stack-primary:   'Avenir', 'Nunito Sans', 'Century Gothic', sans-serif;
-$font-stack-secondary: 'Produkt', 'Sanchez', serif;
+$avenir-font-stack:   'Avenir', 'Nunito Sans', 'Century Gothic', sans-serif;
+$produkt-font-stack: 'Produkt', 'Sanchez', serif;
 
-// Shared
-%typography-shared {
-  font-family: $font-stack-primary;
-}
+$avenir-light: 100;
+$avenir-book: 200;
+$avenir-roman: 300;
+$avenir-medium: 400;
+$avenir-heavy: 500;
+$avenir-black: 600;
+
+$produkt-thin: 100;
+$produkt-extra-light: 200;
+$produkt-light: 300;
+$produkt-regular: 400;
+
+$sans-serif: $avenir-book;
+$serif: $produkt-regular;
+
+
+// Sizes
+$base-font-size: 16px;
+$p-line-height: 28px;
+$small-font-size: 14px;
+$smaller-font-size: 13px;
+$smallest-font-size: 12px;
+
+$h1-font-size: 38px;
+$h2-font-size: 27px;
+$h3-font-size: 21px;
+$h4-font-size: $base-font-size;
+$h5-font-size: 12px;
+$h6-font-size: 12px;
 
 // Display
 .ucsb-display-xl {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-display-lg {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-display-md {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-display-sm {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 // h1-h6
+%h1-h6-shared {
+  font-family: $avenir-font-stack;
+  color: $fog-darken-80;
+  line-height: 1.6em;
+}
+
 .ucsb-h1 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-black;
+  font-size: $h1-font-size;
+  letter-spacing: -0.1pt;
 }
 
 .ucsb-h2 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-black;
+  font-size: $h2-font-size;
+  letter-spacing: -0.1pt;
+  margin: 26px 0 10px 0;
 }
 
 .ucsb-h3 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-black;
+  font-size: $h3-font-size;
+  margin: 20px 0 10px 0;
 }
 
 .ucsb-h4 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-black;
+  font-size: $h4-font-size;
+  margin: 16px 0 8px 0;
 }
 
 .ucsb-h5 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-black;
+  font-size: $h5-font-size;
   text-transform: uppercase;
 }
 
 .ucsb-h6 {
-  @extend %typography-shared;
+  @extend %h1-h6-shared;
+  font-weight: $avenir-medium;
+  font-size: $h6-font-size;
   text-transform: uppercase;
 }
 
 // Body
 .ucsb-body {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-lead {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-caption {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
 
 .ucsb-fine-print {
-  @extend %typography-shared;
+  font-family: $avenir-font-stack;
 }
