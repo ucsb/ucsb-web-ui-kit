@@ -1,0 +1,22 @@
+{
+  "name": "@ucsantabarbara/ucsb-web-ui-kit",
+  "version": "0.0.1",
+  "description": "Get the ucsb.edu look and feel with CSS and snippets of HTML that will work in your website or web app.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./src/ucsb.scss ./dist/ucsb.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSantaBarbara/ucsb-web-ui-kit.git"
+  },
+  "author": "Gary Scott",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/UCSantaBarbara/ucsb-web-ui-kit/issues"
+  },
+  "homepage": "https://ucsantabarbara.github.io/ucsb-web-ui-kit/",
+  "devDependencies": {
+    "sass": "^1.13.2"
+  }
+}
