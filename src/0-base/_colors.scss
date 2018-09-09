@@ -1,0 +1,63 @@
+// Primary colors
+$base-navy:                     #003660;
+$navy-lighten-10-desat-10:      #07528C;
+$navy-darken-4:                 #002B4C;
+$navy-lighten-70:               #C6E7FF;
+
+// Secondary colors
+$base-gold:                     #FEBC11;
+$gold-darken-10-desat-10:       #D0990C;
+$gold-lighten-24-sat-12:        #FFDF8A;
+
+// Tertiary colors
+$base-seagreen:                 #0BA89A;
+$base-seagreen-web:             #09847A;
+$seagreen-darken-12:            #076F65;
+$seagreen-lighten-32-desat-40:  #83D3CC;
+
+$base-aqua:                     #04859B;
+$base-aqua-web:                 #047C91;
+$aqua-darken-6:                 #036B7D;
+$aqua-lighten-36-desat-36:      #7ACEDD;
+
+$base-moss:                     #7A8D39;
+$base-moss-web:                 #6D7D33;
+$moss-darken-8:                 #61702D;
+$moss-lighten-40:               #C6D495;
+
+$base-coral:                    #EF5645;
+$coral-darken-15-desat-15:      #C43424;
+$coral-lighten-20:              #F7ABA3;
+
+$base-sandstone:                #C9BF9D;
+$sandstone-darken-10:           #B6AA7C;
+$sandstone-lighten-20:          #EDEADF;
+
+$base-clay:                     #DCD6CC;
+$clay-lighten-10:               #F1EEEA;
+
+$base-mist:                     #9CBEBE;
+$mist-darken-10:                #7CA9A9;
+$mist-lighten-20:               #DAE6E6;
+
+$base-fog:                      #DCE1E5;
+$fog-lighten-6:                 #EEF0F2;
+$fog-darken-80:                 #111517;
+$fog-darken-60:                 #3D4952;
+$fog-darken-45:                 #5E707E;
+$fog-darken-20:                 #A1AFBA;
+$base-white:                    #FFFFFF;
+$base-black:                    #000000;
+
+// Interactive blue
+$base-interactive-blue:         #005AA3;
+$light-interactive-blue:        #0076D6;
+
+// Utility colors
+$base-success-green:            #2ECC40;
+$success-green-darken-20:       #1B7926;
+$base-warning-yellow:           #FFDC00;
+$warning-yellow-darken:         #EFCA08;
+$base-danger-red:               #FF4136;
+$danger-red-darken-20:          #CF0B00;
+$base-info-blue:                #0074D9;
