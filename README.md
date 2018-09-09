@@ -28,6 +28,25 @@ The goal is to provide a single CSS file that can be imported and used in any we
 
 - [Node.js and npm](https://nodejs.org/en/) : Try Node Version Manager for [Mac/Linux](https://github.com/creationix/nvm) or [Windows](https://github.com/coreybutler/nvm-windows).
 
+### Do it!
+
+Open a GitHub Issue.
+
+Fork this repo.
+
+Run `npm install` to set up dependencies.
+
+Edit `/src/ucsb.scss` and other files under `/src`.
+
+Run `npm run build` to compile the SCSS.
+
+Tweak examples under `/docs` if needed.
+
+Test?!?
+
+Commit!
+
+Create a Pull Request.
 
 
 ## Roadmap: plans, goals, hopes, and dreams
@@ -39,4 +58,3 @@ The goal is to provide a single CSS file that can be imported and used in any we
 3. Examples and snippits hosted on GitHub Pages. May convert to [Pattern Lab](https://patternlab.io/) later.
 
 4. Package and publish on [npmjs.com](https://www.npmjs.com/org/ucsantabarbara). Use npm to install or [UNPKG](https://unpkg.com/) for CDN.
-
