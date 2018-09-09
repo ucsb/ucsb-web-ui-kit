@@ -1,0 +1,70 @@
+// These fonts are from the UCSB visual identity, font CDN, and similar Google Fonts.
+
+$font-stack-primary:   'Avenir', 'Nunito Sans', 'Century Gothic', sans-serif;
+$font-stack-secondary: 'Produkt', 'Sanchez', serif;
+
+// Shared
+%typography-shared {
+  font-family: $font-stack-primary;
+}
+
+// Display
+.ucsb-display-xl {
+  @extend %typography-shared;
+}
+
+.ucsb-display-lg {
+  @extend %typography-shared;
+}
+
+.ucsb-display-md {
+  @extend %typography-shared;
+}
+
+.ucsb-display-sm {
+  @extend %typography-shared;
+}
+
+// h1-h6
+.ucsb-h1 {
+  @extend %typography-shared;
+}
+
+.ucsb-h2 {
+  @extend %typography-shared;
+}
+
+.ucsb-h3 {
+  @extend %typography-shared;
+}
+
+.ucsb-h4 {
+  @extend %typography-shared;
+}
+
+.ucsb-h5 {
+  @extend %typography-shared;
+  text-transform: uppercase;
+}
+
+.ucsb-h6 {
+  @extend %typography-shared;
+  text-transform: uppercase;
+}
+
+// Body
+.ucsb-body {
+  @extend %typography-shared;
+}
+
+.ucsb-lead {
+  @extend %typography-shared;
+}
+
+.ucsb-caption {
+  @extend %typography-shared;
+}
+
+.ucsb-fine-print {
+  @extend %typography-shared;
+}

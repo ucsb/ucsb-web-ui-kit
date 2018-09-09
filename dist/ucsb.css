@@ -1,0 +1,13 @@
+.ucsb-fine-print, .ucsb-caption, .ucsb-lead, .ucsb-body, .ucsb-h6, .ucsb-h5, .ucsb-h4, .ucsb-h3, .ucsb-h2, .ucsb-h1, .ucsb-display-sm, .ucsb-display-md, .ucsb-display-lg, .ucsb-display-xl {
+  font-family: "Avenir", "Nunito Sans", "Century Gothic", sans-serif;
+}
+
+.ucsb-h5 {
+  text-transform: uppercase;
+}
+
+.ucsb-h6 {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=ucsb.css.map */
