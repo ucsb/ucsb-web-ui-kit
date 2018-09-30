@@ -17,6 +17,6 @@
   },
   "homepage": "https://ucsantabarbara.github.io/ucsb-web-ui-kit/",
   "devDependencies": {
-    "sass": "^1.13.2"
+    "sass": "^1.14.1"
   }
 }
