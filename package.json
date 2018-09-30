@@ -2,9 +2,8 @@
   "name": "@ucsantabarbara/ucsb-web-ui-kit",
   "version": "0.0.1",
   "description": "Get the ucsb.edu look and feel with CSS and snippets of HTML that will work in your website or web app.",
-  "main": "index.js",
   "scripts": {
-    "build": "sass ./src/ucsb.scss ./dist/ucsb.css"
+    "build": "sass src/ucsb.scss:docs/ucsb.css && sass src/ucsb.scss:dist/ucsb.css && sass --style=compressed src/ucsb.scss:dist/ucsb.min.css"
   },
   "repository": {
     "type": "git",
