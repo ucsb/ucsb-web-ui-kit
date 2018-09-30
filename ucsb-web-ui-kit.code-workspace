@@ -6,6 +6,7 @@
   ],
   "settings": {
     "editor.tabSize": 2,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true
   }
 }
